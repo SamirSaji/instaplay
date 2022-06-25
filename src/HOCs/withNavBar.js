@@ -9,14 +9,8 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     width: "100%",
-    height: "calc(100% - 64px)",
     overflow: "auto",
-    [theme.breakpoints.up("sm")]: {
-      paddingLeft: 56,
-    },
-    [theme.breakpoints.down("md")]: {
-      paddingLeft: 0,
-    },
+
   },
   topNavbar: {},
 }));

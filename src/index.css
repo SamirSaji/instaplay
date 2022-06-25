@@ -1,9 +1,11 @@
 html {
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 #root {
   height: 100vh;
+  background: #0c111b;
 }
 
 ::-webkit-scrollbar {

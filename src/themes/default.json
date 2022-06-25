@@ -9,12 +9,18 @@
       "light": "#203A5E",
       "main": "#203A5E",
       "dark": "#0C111B",
-      "contrastText": "#fff"
+      "contrastText": "#fff",
+      "background": "rgba(255, 255, 255, 0.06)",
+      "white": "#fff",
+      "black": "#000",
+      "primaryGradient": "linear-gradient(180deg, #ff9966 0%, #ff5e62 100%)",
+      "cardBackground": "linear-gradient(0deg, #1A2B4A 0%, #2B507C 105.38%)",
+      "shadeGradient": "linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%)"
     },
     "secondary": {
-      "light": "#766dde",
-      "main": "#5449d6",
-      "dark": "#3a3395",
+      "light": "#fff",
+      "main": "#FF6A63",
+      "dark": "#FF6A63",
       "contrastText": "#fff"
     },
     "error": {

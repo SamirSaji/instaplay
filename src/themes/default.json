@@ -1,0 +1,27 @@
+{
+  "direction": "ltr",
+  "typography": {
+    "fontFamily": "instaplay_regular"
+  },
+  "palette": {
+    "mode": "light",
+    "primary": {
+      "light": "#203A5E",
+      "main": "#203A5E",
+      "dark": "#0C111B",
+      "contrastText": "#fff"
+    },
+    "secondary": {
+      "light": "#766dde",
+      "main": "#5449d6",
+      "dark": "#3a3395",
+      "contrastText": "#fff"
+    },
+    "error": {
+      "light": "#e57373",
+      "main": "#f44336",
+      "dark": "#d32f2f",
+      "contrastText": "#fff"
+    }
+  }
+}

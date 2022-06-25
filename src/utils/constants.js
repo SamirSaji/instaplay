@@ -1,11 +1,10 @@
-
 /**
- * Object has the key and value pair of all the keys which 
+ * Object has the key and value pair of all the keys which
  * are used to store some values in the local storage.
  */
 export let LocalStorageKeys = {
-    authToken: "auth_token",
-    version: "version"
+  authToken: "auth_token",
+  version: "version",
 };
 
 /**
@@ -13,9 +12,15 @@ export let LocalStorageKeys = {
  * used for an network call.
  */
 export let NetWorkCallMethods = {
-    get: "GET",
-    post: "POST",
-    put: "PUT",
-    delete: "DELETE",
-    update: "UPDATE",
+  get: "GET",
+  post: "POST",
+  put: "PUT",
+  delete: "DELETE",
+  update: "UPDATE",
+};
+
+// Themes
+export let Themes = {
+  default: "default",
+  dark: "dark",
 };

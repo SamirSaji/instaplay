@@ -9,7 +9,7 @@ const RouterApp = (props) => {
     <BrowserRouter>
       <Routes>
         {/* Home page */}
-        <Route exact path={AppRoutes.home} element={Home} />
+        <Route exact path={AppRoutes.home} element={<Home />} />
 
         {/* For unknow/non-defined path */}
         <Route path="*" element={<NotFound />} />

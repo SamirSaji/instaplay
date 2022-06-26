@@ -19,7 +19,7 @@ export const DetailCard = ({
         </Grid>
         <Grid item xs={12}>
           <Typography className={classes.ratingText}>
-            Rating : {rating / 2}/5
+            Rating : {(rating / 2).toFixed(2)}/5
           </Typography>
         </Grid>{" "}
         <Grid item xs={12}>
